@@ -1,4 +1,5 @@
-import FoodAPP from "./Components/FoodAPP";
+import CreateFood from "./Pages/CreateFood";
+import FoodAPP from "./Pages/FoodAPP";
 import {
   createBrowserRouter,
   RouterProvider,
@@ -11,7 +12,7 @@ const router = createBrowserRouter([
   },
   {
     path: "/about",
-    element: <div>Hallo</div>,
+    element: <CreateFood />,
   },
 ]);
 
@@ -22,6 +23,6 @@ export function App() {
 
 
 
-    </div >
+    </div>
   );
 }
